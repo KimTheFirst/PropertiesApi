@@ -9,8 +9,11 @@ Current endpoint is: https://sparrow.flapflap.net/api/properties
 ## Installation: 
 
 git clone https://github.com/KimTheFirst/PropertiesApi
+
 composer install
+
 [Create .env file with DB login]
+
 php artisan migrate
 
 Requirements: SQL databse. I used postgres.
