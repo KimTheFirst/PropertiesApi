@@ -8,9 +8,9 @@ Current endpoint is: https://sparrow.flapflap.net/api/properties
 
 ## Installation: 
 
-git clone gitlab.flapflap.net/properties-api
+git clone https://github.com/KimTheFirst/PropertiesApi
 composer install
-[edit .env file with DB login]
+[Create .env file with DB login]
 php artisan migrate
 
 Requirements: SQL databse. I used postgres.
@@ -19,7 +19,7 @@ Requirements: SQL databse. I used postgres.
 
 ## Functions:
 
-- /list: Shows all entries
+- /list : Shows all entries
 
 - /get?id= : Get specific entry by ID
 
@@ -27,7 +27,7 @@ Requirements: SQL databse. I used postgres.
 
 - /search?String= : Search by string
 
-- /add?Address1=&Address2=&City=&Postcode= : Add a property
+- /add?Address1=&Address2=&City=&Postcode= : Add a property. Requires all fields, blank fields allowed.
 
 ## Todo:
 
